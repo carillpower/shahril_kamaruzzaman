@@ -1,23 +1,47 @@
----
-layout: default
----
 
-<div class="home">
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+      <meta charset="UTF-8">
+        <title>Shahril Kamaruzzaman | Database / Big Data Architect </title>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+            <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css'>
+              <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+              <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <div class="container demo">
+         <div class="content">
+                
+                 <div id="large-header" class="large-header">
+                            <canvas id="demo-canvas"></canvas>
+                                     <div class="main-title"><span class="thin">Shahril Kamaruzzaman</span> 
 
-  <h1 class="page-heading">Posts</h1>
+                                                <p class="medium">:: Database / Big Data Architect ::</p>
+                                                         <p class="icon">
+                                                                      <span><a href="https://www.linkedin.com/in/shahril-kamaruzzaman-92354813a/" target="_blank"><i class="fab fa-linkedin-in"></i></a></span> 
+                                                                                 <span><a href="https://www.slideshare.net/shahrilkamaruzzaman1" target="_blank"><i class="fab fa-slideshare"></i></i></a></span>
+                                                                                            <span><a href="https://github.com/carillpower/" target="_blank"><i class="fab fa-github"></i></a></span>
+                                                                                                       <span><a href="https://web.whatsapp.com/send?phone=60133084142&text=" target="_blank"><i class="fab fa-whatsapp"></i></a></span>
+                                                                                                                  <span><a href="https://www.howtoforge.com/author/shahril+bin+kamaruzzaman/" target="_blank"><i class="fab fa-internet-explorer"></i></a></span>
+                                                                                                                             <span><a href="https://imshahril.wordpress.com/" target="_blank"><i class="fab fa-wordpress"></i></a></span>
+                                                                                                                                        
+                                                                                                                                        <span><a href="mailto:shahril.kamaruzzaman@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a></span>
+                                                                                                                                                 </p>         
+                                                                                                                                                         </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                                                                                                                                                               </div>
+                                                                                                                                                                   
+                                                                                                                                                                  </div>
+    </div>
+    <!-- partial -->
+    <script src='js/TL.min.js'></script>
+    <script src='js/EP.min.js'></script>
+    <script src='js/demo.js'></script>
+    <script  src="./script.js"></script>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  </body>
+</html>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div>
